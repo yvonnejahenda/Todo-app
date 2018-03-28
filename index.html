@@ -20,14 +20,31 @@
 </head>
 <body>
 <div class="container">
- <form>
- <div class="form-group">
+ <form method="post">
+
+ <div class="row">
+    <div class="col">
+    	 <div class="form-group">
  	
- 	<label>Task Name</label>
- 	<input type="text"class="form-control">
+		 	<label>Task Name</label>
+		 	<input type="text"name="TaskName" class="form-control">
+		 </div>
+
+    </div>
+ 	<div class="col"><div class="form-group">
+ 	
+		 	<label>Due Date</label>
+		 	<input type="date"name="TaskDate" class="form-control">
+		 </div>
+
+
+ 	</div>
  </div>
 
- 	<button class="btn btn-primary btn-block">Add Task</button>
+
+ 
+
+ 	<button type="submit"class ="btn btn-primary btn-block">Add Task</button>
  </form>
 	<hr>
 
@@ -51,6 +68,7 @@
 </div>
 
  <script src="app.js"></script>
+
 </body>
 </html>
 
