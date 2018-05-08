@@ -3,7 +3,8 @@ var app = new Vue({
   data: {
     todos:[
     "My first to do item",
-    "My second to do item"],
+    "My second to do item"
+    ],
     item:'To do item'
   },
   methods:{
